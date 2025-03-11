@@ -1,10 +1,14 @@
-
-
 #product-overview {
   background: url("freedom.jpg");
   width: 100%;
   height: 528px;
   padding: 10px;
+}
+
+.plan__list {
+  width: 80;
+  margin: auto;
+  text-align: center;
 }
 
 .section-title {
@@ -67,7 +71,6 @@
   margin: 8px 0;
 }
 
-
 #key-features {
   background: #ff1b68;
   margin-top: 80px;
@@ -106,4 +109,3 @@
   color: white;
   font-size: 20p;
 }
-
