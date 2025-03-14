@@ -23,6 +23,15 @@
 
   <body>
     <div class="backdrop"></div>
+    <div class="modal">
+      <h1 class="modal__title">Do you want to continue?</h1>
+      <div class="modal__actions">
+        <a href="start-hosting/index.html" class="modal__action">Yes!</a>
+        <button class="modal__action modal__action--negative" type="button">
+          No!
+        </button>
+      </div>
+    </div>
     <header class="main-header">
       <div class="main-header__brand">
         <a href="index.html" class="main-header__brand"> uHost </a>
@@ -104,11 +113,10 @@
         <li class="key-feature">
           <div class="key-feature__image">
             <svg viewBox="0 0 512 512">
-              <path
-                style="fill: #f09b24"
-                stroke: black;
-                d="M344,248h-32V112c0-4.418-3.582-8-8-8h-40c-4.418,0-8,3.582-8,8s3.582,8,8,8h32v128h-32  c-4.418,0-8,3.582-8,8s3.582,8,8,8h32v128h-32c-4.418,0-8,3.582-8,8s3.582,8,8,8h40c4.418,0,8-3.582,8-8V264h32c4.418,0,8-3.582,8-8  S348.418,248,344,248z"
-              />
+              <path style="fill: #f09b24" stroke: black;
+              d="M344,248h-32V112c0-4.418-3.582-8-8-8h-40c-4.418,0-8,3.582-8,8s3.582,8,8,8h32v128h-32
+              c-4.418,0-8,3.582-8,8s3.582,8,8,8h32v128h-32c-4.418,0-8,3.582-8,8s3.582,8,8,8h40c4.418,0,8-3.582,8-8V264h32c4.418,0,8-3.582,8-8
+              S348.418,248,344,248z" />
               <path
                 style="fill: #8e9aa9"
                 d="M264,64H8c-4.418,0-8,3.582-8,8v80c0,4.418,3.582,8,8,8h256c4.418,0,8-3.582,8-8V72  C272,67.582,268.418,64,264,64z"
