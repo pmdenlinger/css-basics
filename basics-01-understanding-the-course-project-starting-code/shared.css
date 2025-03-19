@@ -169,6 +169,10 @@ body {
   outline: none;
 }
 
+.open {
+  display: block !important;
+}
+
 .mobile-nav {
   display: none;
   position: fixed;
